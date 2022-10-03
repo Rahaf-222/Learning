@@ -1,0 +1,12 @@
+@import "./navbar.css"; 
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Josefin+Sans:ital,wght@1,300&family=Noto+Serif:wght@700&family=PT+Sans+Narrow&display=swap');
+
+   
+
+.leern{
+    margin-left: 8%;
+    font-family: 'Combo', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'PT Sans Narrow', sans-serif;
+}

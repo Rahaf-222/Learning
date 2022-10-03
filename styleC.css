@@ -1,0 +1,60 @@
+@import "./navbar.css"; 
+  
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10%;
+
+}
+
+.card{
+
+background-color: white;
+width: 300px;
+margin: 10px;
+border-radius: 15px;
+
+}
+.card-image{
+    background-color: aliceblue;
+    height: 310px;
+    margin-bottom: 15px;
+    background-size: cover;
+
+}
+
+.image-1{
+    background-image: url(./js.jpg);
+
+
+}
+.image-2{
+    background-image: url(./css.png);
+
+}
+.image-3{
+    background-image: url(./html.png);
+
+}
+.card a {
+    background-color: #1e94be;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+    display: inline-block;
+}
+.card a:hover{
+   color: white;
+}
+.card:hover{
+    background-color: #ffdddd;
+    color: white;
+    cursor: pointer;
+    transition: scale(1.03);
+    transition: all 1s ease;
+
+}
